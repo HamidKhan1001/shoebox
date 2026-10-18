@@ -1,0 +1,6 @@
+Blue Door Cafe
+Receipt  2026-05-10
+Item(s) $18.40
+Tax $1.47
+Total paid $19.87
+Thank you for your purchase

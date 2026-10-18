@@ -1,0 +1,7 @@
+INVOICE
+From: Jordan Rivera Design (freelancer)
+Bill To: Globex Corp
+Invoice date: 2026-09-03
+Description: Brand identity project
+Subtotal $1,850.00
+Amount due $1,850.00

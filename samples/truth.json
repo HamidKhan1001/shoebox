@@ -1,0 +1,122 @@
+{
+ "adobe.pdf": {
+  "doc_type": "receipt",
+  "vendor": "Adobe",
+  "date": "2026-03-14",
+  "total": 49.99,
+  "currency": "USD",
+  "category": "software"
+ },
+ "github.txt": {
+  "doc_type": "receipt",
+  "vendor": "GitHub",
+  "date": "2026-04-02",
+  "total": 4.0,
+  "currency": "USD",
+  "category": "software"
+ },
+ "delta.pdf": {
+  "doc_type": "receipt",
+  "vendor": "Delta Air Lines",
+  "date": "2026-05-09",
+  "total": 412.3,
+  "currency": "USD",
+  "category": "travel"
+ },
+ "cafe.txt": {
+  "doc_type": "receipt",
+  "vendor": "Blue Door Cafe",
+  "date": "2026-05-10",
+  "total": 19.87,
+  "currency": "USD",
+  "category": "meals"
+ },
+ "staples.pdf": {
+  "doc_type": "receipt",
+  "vendor": "Staples",
+  "date": "2026-06-21",
+  "total": 136.89,
+  "currency": "USD",
+  "category": "office"
+ },
+ "comcast.txt": {
+  "doc_type": "invoice_received",
+  "vendor": "Comcast Business",
+  "date": "2026-06-30",
+  "total": 96.12,
+  "currency": "USD",
+  "category": "utilities"
+ },
+ "apple.pdf": {
+  "doc_type": "receipt",
+  "vendor": "Apple Store",
+  "date": "2026-07-04",
+  "total": 1402.92,
+  "currency": "USD",
+  "category": "hardware"
+ },
+ "figma.txt": {
+  "doc_type": "receipt",
+  "vendor": "Figma",
+  "date": "2026-07-15",
+  "total": 15.0,
+  "currency": "USD",
+  "category": "software"
+ },
+ "lawyer.pdf": {
+  "doc_type": "invoice_received",
+  "vendor": "Hart & Lowell LLP",
+  "date": "2026-08-01",
+  "total": 750.0,
+  "currency": "USD",
+  "category": "professional-services"
+ },
+ "acme_inv.pdf": {
+  "doc_type": "invoice_sent",
+  "vendor": "Acme Robotics",
+  "date": "2026-08-12",
+  "total": 3200.0,
+  "currency": "USD",
+  "category": "income"
+ },
+ "globex_inv.txt": {
+  "doc_type": "invoice_sent",
+  "vendor": "Globex Corp",
+  "date": "2026-09-03",
+  "total": 1850.0,
+  "currency": "USD",
+  "category": "income"
+ },
+ "facebook_ads.txt": {
+  "doc_type": "receipt",
+  "vendor": "Meta Ads",
+  "date": "2026-09-18",
+  "total": 240.0,
+  "currency": "USD",
+  "category": "marketing"
+ },
+ "train.txt": {
+  "doc_type": "receipt",
+  "vendor": "Deutsche Bahn",
+  "date": "2026-09-22",
+  "total": 104.25,
+  "currency": "EUR",
+  "category": "travel"
+ },
+ "domain.txt": {
+  "doc_type": "receipt",
+  "vendor": "Namecheap",
+  "date": "2026-10-01",
+  "total": 14.98,
+  "currency": "USD",
+  "category": "software"
+ },
+ "coworking.pdf": {
+  "doc_type": "invoice_received",
+  "vendor": "Hubspace Coworking",
+  "date": "2026-10-03",
+  "total": 345.6,
+  "currency": "USD",
+  "category": "office"
+ }
+}

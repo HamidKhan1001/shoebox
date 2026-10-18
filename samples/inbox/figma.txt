@@ -1,0 +1,6 @@
+Figma
+Receipt  2026-07-15
+Item(s) $15.00
+Tax $0.00
+Total paid $15.00
+Thank you for your purchase

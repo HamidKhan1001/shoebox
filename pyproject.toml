@@ -1,0 +1,16 @@
+[project]
+name = "shoebox"
+version = "0.1.0"
+description = "Local-only receipt and invoice sorter for freelancers, powered by open-weight models via Ollama"
+requires-python = ">=3.10"
+dependencies = ["pypdf>=4"]
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = ["pytest", "reportlab"]
+
+[project.scripts]
+shoebox = "shoebox.cli:main"
+
+[tool.setuptools]
+packages = ["shoebox"]

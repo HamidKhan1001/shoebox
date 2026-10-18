@@ -1,0 +1,6 @@
+Deutsche Bahn
+Receipt  2026-09-22
+Item(s) €89.90
+Tax €14.35
+Total paid €104.25
+Thank you for your purchase
