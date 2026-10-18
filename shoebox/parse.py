@@ -16,18 +16,20 @@ SCHEMA = {
         "total": {"type": "number"},
         "tax": {"type": "number"},
         "currency": {"type": "string"},
-        "category": {"type": "string", "enum": CATEGORIES},
+        "category": {"type": "string", "enum": [c for c in CATEGORIES if c != "income"]},
     },
     "required": ["doc_type", "vendor", "date", "total", "currency", "category"],
 }
 
 SYSTEM = (
-    "You extract bookkeeping fields from one receipt or invoice. Reply with JSON only. "
-    "vendor = the business that issued the document (for invoice_sent, the client being billed). "
-    "total = the final amount due or paid, tax included. date = the issue/purchase date as YYYY-MM-DD. "
-    "currency = ISO code (USD, EUR, GBP...). "
-    "invoice_sent means the document owner billed a client (money coming in, category income); "
-    "invoice_received means a supplier billed the owner. Use 0 for tax if none is shown."
+    "You extract bookkeeping fields from one receipt or invoice. Reply with JSON only.\n"
+    "doc_type: 'receipt' = proof of a purchase already paid. 'invoice_received' = a supplier or vendor is billing the owner "
+    "(the owner is the one named 'Invoice for' or 'Bill To'). 'invoice_sent' = the owner is billing a client: the owner's own name "
+    "appears after 'From:' and the client after 'Bill To:'.\n"
+    "vendor: for receipt and invoice_received, the business that issued the document. For invoice_sent, the client named after 'Bill To:'.\n"
+    "category: what the money was spent on (software subscriptions and domains = software; computers = hardware; flights and trains = travel; "
+    "food = meals; supplies and coworking = office; phone/internet = utilities; ads = marketing; lawyers and accountants = professional-services).\n"
+    "total: final amount due or paid, tax included. date: YYYY-MM-DD. currency: ISO code. tax: 0 if none shown."
 )
 
 
